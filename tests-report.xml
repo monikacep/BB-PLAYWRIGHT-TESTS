@@ -1,0 +1,139 @@
+<testsuites id="" name="" tests="21" failures="0" skipped="0" errors="0" time="37.082941999999996">
+    <testsuite name="loanCalculator.spec.ts" timestamp="2024-11-17T16:01:27.673Z"
+        hostname="chromium" tests="21" failures="0" skipped="0" time="138.489" errors="0">
+        <testcase name="Loan Calculator › should let to close modal"
+            classname="loanCalculator.spec.ts" time="6.767">
+</testcase>
+        <testcase name="Loan Calculator › should display all loan calculator modal elements"
+            classname="loanCalculator.spec.ts" time="3.494">
+</testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 500 amount and 24 maturity"
+            classname="loanCalculator.spec.ts" time="9.094">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m688.38[39m, monthlyPayment: [33m28.69[39m, apr: [33m53.79[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 30000 amount and 70 maturity"
+            classname="loanCalculator.spec.ts" time="14.222">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m47745.55[39m, monthlyPayment: [33m682.09[39m, apr: [33m19.69[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 12345 amount and 6 maturity"
+            classname="loanCalculator.spec.ts" time="8.784">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m12972.91[39m, monthlyPayment: [33m2162.16[39m, apr: [33m28.14[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 4000 amount and 120 maturity"
+            classname="loanCalculator.spec.ts" time="8.48">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m8820.06[39m, monthlyPayment: [33m73.52[39m, apr: [33m20.95[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 500 amount and 6 maturity"
+            classname="loanCalculator.spec.ts" time="8.065">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m548.41[39m, monthlyPayment: [33m91.41[39m, apr: [33m96.04[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 30000 amount and 120 maturity"
+            classname="loanCalculator.spec.ts" time="8.196">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m63048.61[39m, monthlyPayment: [33m525.41[39m, apr: [33m19.33[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 30000 amount and 6 maturity"
+            classname="loanCalculator.spec.ts" time="8.278">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m31491.63[39m, monthlyPayment: [33m5248.61[39m, apr: [33m27.64[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 500 amount and 120 maturity"
+            classname="loanCalculator.spec.ts" time="8.264">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m1521.55[39m, monthlyPayment: [33m12.68[39m, apr: [33m37.29[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 400 amount and 12 maturity"
+            classname="loanCalculator.spec.ts" time="8.007">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m594.45[39m, monthlyPayment: [33m49.54[39m, apr: [33m68.55[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 35000 amount and 12 maturity"
+            classname="loanCalculator.spec.ts" time="8.134">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m32842.71[39m, monthlyPayment: [33m2736.9[39m, apr: [33m23.49[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 5000 amount and 5 maturity"
+            classname="loanCalculator.spec.ts" time="7.89">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m5268.56[39m, monthlyPayment: [33m878.1[39m, apr: [33m29.39[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 5000 amount and 130 maturity"
+            classname="loanCalculator.spec.ts" time="8.318">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m10905.83[39m, monthlyPayment: [33m90.9[39m, apr: [33m20.58[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Valid Input Calculations › should calculate monthly payment correctly for 3000.55 amount and 36 maturity"
+            classname="loanCalculator.spec.ts" time="8.197">
+            <system-out>
+<![CDATA[API response:  { totalRepayableAmount: [33m3990.94[39m, monthlyPayment: [33m110.87[39m, apr: [33m23.37[39m }
+]]>
+</system-out>
+        </testcase>
+        <testcase
+            name="Loan Calculator › Invalid Input Calculations › should not allow to input invalid -5000 amount"
+            classname="loanCalculator.spec.ts" time="1.544">
+</testcase>
+        <testcase
+            name="Loan Calculator › Invalid Input Calculations › should not allow to input invalid  amount"
+            classname="loanCalculator.spec.ts" time="1.707">
+</testcase>
+        <testcase
+            name="Loan Calculator › Invalid Input Calculations › should not allow to input invalid amount amount"
+            classname="loanCalculator.spec.ts" time="1.747">
+</testcase>
+        <testcase
+            name="Loan Calculator › Invalid Input Calculations › should not allow to input invalid -60 maturity"
+            classname="loanCalculator.spec.ts" time="2.491">
+</testcase>
+        <testcase
+            name="Loan Calculator › Invalid Input Calculations › should not allow to input invalid  maturity"
+            classname="loanCalculator.spec.ts" time="3.365">
+</testcase>
+        <testcase
+            name="Loan Calculator › Invalid Input Calculations › should not allow to input invalid months maturity"
+            classname="loanCalculator.spec.ts" time="3.445">
+</testcase>
+    </testsuite>
+</testsuites>

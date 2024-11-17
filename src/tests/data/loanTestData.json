@@ -1,0 +1,79 @@
+{
+  "defaultAmount": "128.18",
+  "validLoanData": [
+    {
+      "amount": "500",
+      "maturity": "24"
+    },
+    {
+      "amount": "30000",
+      "maturity": "70"
+    },
+    {
+      "amount": "12345",
+      "maturity": "6"
+    },
+    {
+      "amount": "4000",
+      "maturity": "120"
+    },
+    {
+      "amount": "500",
+      "maturity": "6"
+    },
+    {
+      "amount": "30000",
+      "maturity": "120"
+    },
+    {
+      "amount": "30000",
+      "maturity": "6"
+    },
+    {
+      "amount": "500",
+      "maturity": "120"
+    },
+    {
+      "amount": "400",
+      "maturity": "12"
+    },
+    {
+      "amount": "35000",
+      "maturity": "12"
+    },
+    {
+      "amount": "5000",
+      "maturity": "5"
+    },
+    {
+      "amount": "5000",
+      "maturity": "130"
+    },
+    {
+      "amount": "3000.55",
+      "maturity": "36"
+    }
+  ],
+  "invalidAmountLoanData": [
+    {
+      "amount": "-5000"
+    },
+    {
+      "amount": ""
+    },
+    {
+      "amount": "amount"
+    }
+  ],
+  "invalidMaturityLoanData": [
+    {
+      "maturity": "-60"
+    },
+    {
+      "maturity": ""
+    },
+    {
+      "maturity": "months"
+    }
+  ]
+}
