@@ -13,13 +13,13 @@ test.describe('Loan Calculator', () => {
         await loanCalculatorPage.modalElement().waitFor({ state: 'visible' })
     })
 
-    test('should let to close modal', async ({page }) => {
+    test('should allow to close modal', async () => {
         await loanCalculatorPage.closeButton().click()
         await loanCalculatorPage.waitForModalToClose()
         expect(loanCalculatorPage.modalElement()).toBeHidden()
     })
 
-    test('should display all loan calculator modal elements', async ({ }) => {
+    test('should display all loan calculator modal elements', () => {
         expect(loanCalculatorPage.titleElement()).toBeVisible()
         expect(loanCalculatorPage.amountInput()).toBeVisible()
         expect(loanCalculatorPage.amountRangeElement()).toBeVisible()

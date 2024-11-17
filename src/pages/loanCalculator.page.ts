@@ -1,7 +1,7 @@
 import { Page } from '@playwright/test'
 
 export class LoanCalculatorPage {
-  protected page: Page
+  private page: Page
   private apiUrl: string
 
   constructor(page: Page, apiUrl: string) {
@@ -23,19 +23,20 @@ export class LoanCalculatorPage {
   private async getMonthlyPaymentAmountText(): Promise<string> {
     const element = this.page.locator('p.bb-labeled-value__value')
     const textContent = await element.textContent()
+    
     return textContent?.trim() ?? ''
   }
 
   public async getMonthlyPaymentAmount(): Promise<number> {
     const text = await this.getMonthlyPaymentAmountText()
-    const monthlyPaymentAmount = parseFloat(text.replace(/[^\d.-]/g, '').trim())
+    const monthlyPaymentAmount = parseFloat(text.replace(/[€‚,]/g, '').trim())
+
     return isNaN(monthlyPaymentAmount) ? 0 : monthlyPaymentAmount
   }
 
   public async waitForCalculationToComplete() {
     await this.page.waitForTimeout(6000)
   }
-
 
   public async waitForModalToClose() {
     await this.page.waitForTimeout(2000)
