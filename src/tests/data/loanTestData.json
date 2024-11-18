@@ -1,5 +1,6 @@
 {
-  "defaultAmount": "128.18",
+  "defaultAmount": "670.97",
+  "defaultMaturity": "44",
   "validLoanData": [
     {
       "amount": "500",
@@ -34,22 +35,6 @@
       "maturity": "120"
     },
     {
-      "amount": "400",
-      "maturity": "12"
-    },
-    {
-      "amount": "35000",
-      "maturity": "12"
-    },
-    {
-      "amount": "5000",
-      "maturity": "5"
-    },
-    {
-      "amount": "5000",
-      "maturity": "130"
-    },
-    {
       "amount": "3000.55",
       "maturity": "36"
     }
@@ -63,6 +48,12 @@
     },
     {
       "amount": "amount"
+    },
+    {
+      "amount": "35000"
+    },
+    {
+      "amount": "400"
     }
   ],
   "invalidMaturityLoanData": [
@@ -74,6 +65,12 @@
     },
     {
       "maturity": "months"
+    },
+    {
+      "maturity": "130"
+    },
+    {
+      "maturity": "5"
     }
   ]
 }
