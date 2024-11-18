@@ -47,6 +47,10 @@ The current test suite includes the following tests for the **Loan Calculator** 
 - Verify the modal can be closed.
 - Verify that all modal elements are displayed.
 
+### Loan Parameter Selection and Saving
+
+- Validate that users can select loan amounts and period, submit them, and retrieve the saved values correctly.
+
 ### Valid Input Calculations
 
 - Validate that the loan calculator correctly calculates monthly payments for various loan amounts and maturities.
