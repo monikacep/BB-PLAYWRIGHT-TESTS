@@ -21,11 +21,12 @@ test.describe('Loan Calculator', () => {
             expect(loanCalculatorPage.modalElement()).toBeHidden()
         })
 
-        test('should display all loan calculator modal elements', () => {
+        test('should display all loan calculator modal elements', async () => {
             expect(loanCalculatorPage.titleElement()).toBeVisible()
             expect(loanCalculatorPage.amountInput()).toBeVisible()
             expect(loanCalculatorPage.amountRangeElement()).toBeVisible()
             expect(loanCalculatorPage.maturityInput()).toBeVisible()
+            await loanCalculatorPage.waitForCalculationToComplete()
             expect(loanCalculatorPage.monthlyPaymentAmountElement()).toBeVisible()
             expect(loanCalculatorPage.submitButton()).toBeVisible()
             expect(loanCalculatorPage.modalDisclaimer()).toBeVisible()
@@ -83,7 +84,7 @@ test.describe('Loan Calculator', () => {
                 expect(loanCalculatorPage.amountInput()).not.toBe(data.amount)
             })
         }
-        
+
         for (const data of loanTestData.invalidMaturityLoanData) {
             test(`should not allow to input invalid ${data.maturity} maturity`, async () => {
                 await loanCalculatorPage.maturityInput().fill(data.maturity)
